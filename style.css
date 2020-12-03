@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.head {
+    padding-top: 60px;
+    padding-bottom: 15px;
+    margin: 0px;
+    text-align: center;
+    background-color: rgb(214, 230, 245);
+}
+
+#title {
+    padding-bottom: 40px;
+}
+
+#categories {
+    word-spacing: 30px;
+}
+
+#wholegrid {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    text-align: center;
+}
+
+#middleside {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+#middlegrid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    text-align: center;
+}
+
+#postlist {
+    border-right: 1px solid gray;
+    padding-top: 40px;
+    padding-left: 20px;
+    text-align: left;
+    line-height: 30px;
+}
+#maintext {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+#entry_title {
+    margin-bottom: 120px;
+}
